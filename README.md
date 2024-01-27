@@ -1,46 +1,39 @@
 
-- Termux
+- Cmd setup Bakar Bot
 ```js
-termux-setup-storage
 ```
 ```
-apt update
+sudo apt update && apt upgrade
 ```
 ```
-apt upgrade
+sudo apt install bash
 ```
 ```
-pkg update && pkg upgrade
+sudo apt install libwebp
 ```
 ```
-pkg install bash
+sudo apt install git -y
 ```
 ```
-pkg install libwebp
+sudo apt install nodejs -y
 ```
 ```
-pkg install git -y
+sudo apt install ffmpeg -y 
 ```
 ```
-pkg install nodejs -y
+sudo apt install wget
 ```
 ```
-pkg install ffmpeg -y 
+sudo apt install imagemagick -y
 ```
 ```
-pkg install wget
-```
-```
-pkg install imagemagick -y
-```
-```
-git clone https://github.com/Kai0071/A17
-```
-```
-cd A17
+node --expose-gc index.js
 ```
 ```
 npm i
+```
+```
+npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
 ```
 npm start
